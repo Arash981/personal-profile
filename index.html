@@ -9,6 +9,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
     <title>Arash Moradi Portfolio</title>
     <link rel="icon" href="assets/about-pic.png" sizes="16x16" type="image/x-icon">
 
@@ -143,7 +147,7 @@
                 My thesis project allowed me to gain a comprehensive understanding of web technologies,
                 including HTML, CSS, JavaScript, Node.js, and React.
                 I am eager to apply my knowledge and creativity to real-world projects, 
-                delivering customized web solutions that enhance user experiences and meet specific business needs.
+                delivering customised web solutions that enhance user experiences and meet specific business needs.
               </p>
             </div>
           </div>
@@ -266,6 +270,7 @@
             <div class="btn-container">
               <!-- Button to view live project 1 -->
               <button class="btn btn-color-2 project-btn" onclick="window.location.href='https://arash981.github.io/Active-life/'">
+                
                 View Live
               </button>
             </div>
@@ -278,14 +283,14 @@
 
             <div class="article-container">
               <!-- Project 2 image linking to live project -->
-              <img src="assets/project-5-png.png" alt="Project 2" class="project-img" onclick="location.href='../Portfolio-2/index.html'" />
+              <img src="assets/project2.png" alt="Project 2" class="project-img" onclick="location.href='https://arash981.github.io/RentalCar/'" />
             </div>
 
             <h2 class="experience-sub-title project-title">Project Two</h2>
          
             <div class="btn-container">
               <!-- Button to view live project 2 -->
-              <button class="btn btn-color-2 project-btn" onclick="location.href='../Portfolio-2/index.html'">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://arash981.github.io/RentalCar/'">
                 View Live
               </button>
             </div>
@@ -319,22 +324,21 @@
     </section>
 
     <!-- Contact section starts -->
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <!-- Email icon and email address -->
-          <img src="assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
-          <p><a href="mailto:Arashmoradi101@gmail.com">Arashmoradi101@gmail.com</a></p>
+     <div class="contact-container">
+      <form action="" class="contact-left">
+        <div class="contact-left-title">
+          <h2>Get In touch</h2>
+          <hr>
         </div>
-        <div class="contact-info-container">
-          <!-- LinkedIn icon and LinkedIn profile link -->
-          <img src="assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
-          <p><a href="https://www.linkedin.com/in/arash-moradi-front-end-developer/">LinkedIn</a></p>
-        </div>
-      </div>
-    </section>
+        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+        <textarea name="message" placeholder="your message" class="contact-inputs" required></textarea>
+        <button type="submit">submit</button>
+      </form>
+
+     </div>
+
+ 
     <!-- Contact section ends -->
 
     <!-- Footer starts -->
