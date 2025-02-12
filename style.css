@@ -459,6 +459,7 @@ article .icon {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
 }
 
 .contact-left{
@@ -466,6 +467,7 @@ article .icon {
   flex-direction: column;
   align-items: start;
   gap: 20px;
+  
 }
 .contact-left-title h2 {
   font-weight: 2;
@@ -491,6 +493,7 @@ article .icon {
  font-weight: 500;
  color: #666;
  border-radius: 50px;
+ border: solid rgba(0, 0, 0, 0.371);
 }
 
 .contact-left textarea
@@ -503,7 +506,7 @@ article .icon {
 
 .contact-inputs:focus 
 {
-  border:2px solid #ff994f;
+  border:2px solid #000000;
 
 }
 

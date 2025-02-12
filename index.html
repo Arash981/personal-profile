@@ -100,20 +100,7 @@
     </section>
     <div class="horizontal-line"></div> 
 
-       <!-- <div class="video-container">
-      <video autoplay muted loop id="background-video">
-          <source src="inkvideo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-      </video>
-      </div>  -->
-    
-    <!-- About section -->
-    <!-- <div class="video-container">
-      <video muted id="background-video">
-        <source src="assets/inkvideo2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div> -->
+
     
     <div class="video-back">
       <section id="about">
@@ -324,12 +311,15 @@
     </section>
 
     <!-- Contact section starts -->
+
+    <section id="contact">
      <div class="contact-container">
-      <form action="" class="contact-left">
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
         <div class="contact-left-title">
           <h2>Get In touch</h2>
           <hr>
         </div>
+        <input type="hidden" name="access_key" value="565004d8-5322-420d-b771-f592635b933e">
         <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
         <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
         <textarea name="message" placeholder="your message" class="contact-inputs" required></textarea>
@@ -337,6 +327,7 @@
       </form>
 
      </div>
+    </section>
 
  
     <!-- Contact section ends -->
